@@ -14,13 +14,11 @@ try:
             if i == 3:
                 fizz = i % 3
                 if fizz == 0:
-                    #print "i({}).Fizz({})".format(i, fizz)
                     print "Fizz"
             elif i == 5:
                 buzz = i % 5
                 if buzz == 0:
                     print "Buzz"
-                    #print "i({}).Buzz({})".format(i, fizz)
             elif i > 5:
                 fizz = i % 3
                 buzz = i % 5
@@ -28,10 +26,8 @@ try:
                     print "FizzBuzz"
                 elif fizz == 0:
                     print "Fizz"
-                    #print "i({}).fizz({})".format(i, fizz)
                 elif buzz == 0:
                     print "Buzz"
-                    #print "i({}).buzz({})".format(i, buzz)
                 else:
                     print i
             else:
