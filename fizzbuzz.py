@@ -9,7 +9,7 @@ print "!!!Bienvenidos a FizzBuzz!!! "
 
 try:
     num = int(raw_input("Introduzca un numero: "))
-    if num > 0:
+    if num > 0 and num <= 100:
         for i in range(1, num + 1):
             if i == 3:
                 fizz = i % 3
