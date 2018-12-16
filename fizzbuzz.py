@@ -12,13 +12,13 @@ try:
     if num > 0 and num <= 100:
         for i in range(1, num + 1):
             if i == 3:
-                fizz = i % 3
-                if fizz == 0:
-                    print "Fizz"
+                # fizz = i % 3
+                # if fizz == 0:
+                print "Fizz"
             elif i == 5:
-                buzz = i % 5
-                if buzz == 0:
-                    print "Buzz"
+                # buzz = i % 5
+                # if buzz == 0:
+                print "Buzz"
             elif i > 5:
                 fizz = i % 3
                 buzz = i % 5
